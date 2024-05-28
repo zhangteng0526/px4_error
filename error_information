@@ -1,0 +1,12 @@
+[PRODUCT]
+PX4-Autopilot
+
+[VERSION]
+PX4-Autopilot -v1.12.3
+
+[Vulnerability Type]
+> stack-buffer-overflow
+
+[Suggested description]
+An issue was discovered in PX4-Autopilot -v1.12.3. There is a stack-buffer-overflow in /src/modules/mavlink/mavlink_receiver.cpp, leading to a Denial of Service (DoS)
+
